@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { useDarkMode } from "../hooks/use-dark-mode";
 
 export const UseEffect = () => {
