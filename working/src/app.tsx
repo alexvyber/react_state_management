@@ -9,6 +9,7 @@ import { ThemeProvider } from "./theme-context"
 import { UseEffect } from "./lessons/use-effect"
 import { UsePicture } from "./lessons/use-picture"
 import { UsePicture as UsePictureAlt } from "./lessons/use-picture-alt"
+import { UseStorage } from "./lessons/use-storage"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         {/* <UseEffect /> */}
         {/* <UsePicture /> */}
         {/* <UsePictureAlt /> */}
+        <UseStorage />
       </div>
     </ThemeProvider>
   )
