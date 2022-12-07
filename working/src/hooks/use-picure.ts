@@ -1,16 +1,5 @@
 import { useEffect, useState } from "react"
-
-// --
-
-type Picture = {
-  date: string
-  explanation: string
-  hdurl: string
-  media_type: string
-  service_version: string
-  title: string
-  url: string
-}
+import { Picture } from "../types"
 
 export const fetchPicture = async (
   date: string,

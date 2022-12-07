@@ -8,6 +8,7 @@ import { UseContext } from "./lessons/use-context"
 import { ThemeProvider } from "./theme-context"
 import { UseEffect } from "./lessons/use-effect"
 import { UsePicture } from "./lessons/use-picture"
+import { UsePicture as UsePictureAlt } from "./lessons/use-picture-alt"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         {/* <UseContext /> */}
         {/* <UseEffect /> */}
         {/* <UsePicture /> */}
+        {/* <UsePictureAlt /> */}
       </div>
     </ThemeProvider>
   )

@@ -1,8 +1,6 @@
 import { useState } from "react"
 import { usePicture } from "../hooks/use-picure"
 
-// -- --
-
 export const UsePicture = () => {
   const [date, setDate] = useState("2022-12-06")
   let picture = usePicture(date)
