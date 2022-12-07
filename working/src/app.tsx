@@ -23,7 +23,7 @@ function App() {
         {/* <UsePicture /> */}
         {/* <UsePictureAlt /> */}
         {/* <UsePictureWithMemo /> */}
-        <UseStorage />
+        {/* <UseStorage /> */}
       </div>
     </ThemeProvider>
   )

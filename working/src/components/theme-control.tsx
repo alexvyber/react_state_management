@@ -9,7 +9,7 @@ interface ThemeOptions {
 const options: ThemeOptions[] = [
   { value: "light", text: "light" },
   { value: "dark", text: "dark" },
-  { value: "katzen", text: "katzen" },
+  { value: "katzen", text: "katzen" }
 ]
 
 export const ThemeControl = () => {
@@ -23,9 +23,9 @@ export const ThemeControl = () => {
 
       <select
         value={selected}
-        onChange={(e) => setSelected(e.target.value as Theme)}
+        onChange={e => setSelected(e.target.value as Theme)}
       >
-        {options.map((option) => (
+        {options.map(option => (
           <option value={option.value}>{option.text}</option>
         ))}
       </select>

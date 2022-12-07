@@ -21,7 +21,7 @@ export const Status = ({ onEnter }: Props) => {
       type="text"
       value={message}
       onKeyUp={handleEnter}
-      onChange={(e) => setMessage(e.target.value)}
+      onChange={e => setMessage(e.target.value)}
     />
   )
 }

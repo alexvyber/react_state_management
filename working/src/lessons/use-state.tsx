@@ -11,7 +11,7 @@ export const UseState = () => {
           <li key={index}>{msg}</li>
         ))}
       </ul>
-      <Status onEnter={(value) => setMessages([value, ...messages])} />
+      <Status onEnter={value => setMessages([value, ...messages])} />
     </>
   )
 }

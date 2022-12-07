@@ -10,7 +10,7 @@ interface DefaultValue {
 
 const defaultValue: DefaultValue = {
   theme: "light",
-  setTheme() {},
+  setTheme() {}
 }
 
 const ThemeContext = createContext(defaultValue)
@@ -18,7 +18,7 @@ const ThemeContext = createContext(defaultValue)
 export const useThemeContext = () => useContext(ThemeContext)
 
 export const ThemeProvider = ({
-  children,
+  children
 }: React.PropsWithChildren<unknown>): JSX.Element => {
   let [theme, setTheme] = useState<Theme>("light")
 

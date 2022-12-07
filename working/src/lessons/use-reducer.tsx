@@ -26,7 +26,7 @@ const reducer = (state: ReducerState, action: ReducerACtion) => {
 export const UseReducer = () => {
   let [state, dispatch] = useReducer(reducer, {
     count: 0,
-    username: "",
+    username: ""
   })
 
   const handleChangeUsername = (e: React.ChangeEvent<HTMLInputElement>) => {

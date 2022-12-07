@@ -10,7 +10,7 @@ export const useNetowrk = <T>({ url }: { url: string }): FetchData<T> => {
   let [state, setState] = useState<FetchData<T>>({
     data: null as T, // ???: find the better way to do this
     loading: false,
-    error: null,
+    error: null
   })
 
   useEffect(() => {

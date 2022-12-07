@@ -12,7 +12,7 @@ export const UseEffect = () => {
         display: "flex",
         justifyItems: "center",
         justifyContent: "center",
-        fontSize: "60px",
+        fontSize: "60px"
       }}
     >
       <h4>Some text</h4>
