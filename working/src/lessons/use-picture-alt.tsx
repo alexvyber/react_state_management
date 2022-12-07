@@ -1,9 +1,12 @@
 import { useState } from "react"
-import { usePicture } from "../hooks/use-picure"
+import { usePicture } from "../hooks/use-picure-alt"
 
 export const UsePicture = () => {
   const [date, setDate] = useState("2022-12-06")
-  let picture = usePicture(date)
+  let { data: picture, loading, error } = usePicture(date)
+
+  if (error) return <h1>Error: {JSON.stringify(error)}</h1>
+  if (loading) return <h1>Loadng...</h1>
 
   return (
     <main>
