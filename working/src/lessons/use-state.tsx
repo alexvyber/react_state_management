@@ -1,8 +1,8 @@
-import { useState } from "react";
-import { Status } from "../components/status";
+import { useState } from "react"
+import { Status } from "../components/status"
 
 export const UseState = () => {
-  const [messages, setMessages] = useState<string[]>([]);
+  const [messages, setMessages] = useState<string[]>([])
 
   return (
     <>
@@ -13,5 +13,5 @@ export const UseState = () => {
       </ul>
       <Status onEnter={(value) => setMessages([value, ...messages])} />
     </>
-  );
-};
+  )
+}

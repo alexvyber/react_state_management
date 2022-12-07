@@ -1,21 +1,21 @@
-import { useState } from "react";
-import { Theme, useThemeContext } from "../theme-context";
+import { useState } from "react"
+import { Theme, useThemeContext } from "../theme-context"
 
 interface ThemeOptions {
-  value: Theme;
-  text: string;
+  value: Theme
+  text: string
 }
 
 const options: ThemeOptions[] = [
   { value: "light", text: "light" },
   { value: "dark", text: "dark" },
   { value: "katzen", text: "katzen" },
-];
+]
 
 export const ThemeControl = () => {
-  let { theme, setTheme } = useThemeContext();
+  let { theme, setTheme } = useThemeContext()
 
-  const [selected, setSelected] = useState<Theme>(options[0].value);
+  const [selected, setSelected] = useState<Theme>(options[0].value)
 
   return (
     <div style={{ padding: "50px 0" }}>
@@ -34,5 +34,5 @@ export const ThemeControl = () => {
         <button onClick={() => setTheme(selected)}>Set theme</button>
       </div>
     </div>
-  );
-};
+  )
+}

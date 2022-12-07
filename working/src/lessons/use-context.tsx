@@ -1,5 +1,5 @@
-import { Content } from "../components/content";
-import { Sidebar } from "../components/sidebar";
+import { Content } from "../components/content"
+import { Sidebar } from "../components/sidebar"
 
 export const UseContext = () => {
   return (
@@ -7,5 +7,5 @@ export const UseContext = () => {
       <Sidebar />
       <Content />
     </div>
-  );
-};
+  )
+}

@@ -1,1 +1,1 @@
-export const Content = () => <div>Content</div>;
+export const Content = () => <div>Content</div>

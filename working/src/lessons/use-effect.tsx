@@ -1,7 +1,7 @@
-import { useDarkMode } from "../hooks/use-dark-mode";
+import { useDarkMode } from "../hooks/use-dark-mode"
 
 export const UseEffect = () => {
-  let isDarkMode = useDarkMode();
+  let isDarkMode = useDarkMode()
   return (
     <div
       style={{
@@ -17,5 +17,5 @@ export const UseEffect = () => {
     >
       <h4>Some text</h4>
     </div>
-  );
-};
+  )
+}

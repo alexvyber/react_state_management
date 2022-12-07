@@ -1,20 +1,20 @@
-import { useState } from "react";
+import { useState } from "react"
 
 interface Props {
-  onEnter: (value: string) => void;
+  onEnter: (value: string) => void
 }
 
 export const Status = ({ onEnter }: Props) => {
-  const [message, setMessage] = useState<string>("");
+  const [message, setMessage] = useState<string>("")
 
   const handleEnter = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "Enter") {
       if (message && message !== "") {
-        onEnter(message);
-        setMessage("");
+        onEnter(message)
+        setMessage("")
       }
     }
-  };
+  }
 
   return (
     <input
@@ -23,5 +23,5 @@ export const Status = ({ onEnter }: Props) => {
       onKeyUp={handleEnter}
       onChange={(e) => setMessage(e.target.value)}
     />
-  );
-};
+  )
+}
