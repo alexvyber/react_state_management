@@ -10,6 +10,7 @@ import { UseEffect } from "./lessons/use-effect"
 import { UsePicture } from "./lessons/use-picture"
 import { UsePicture as UsePictureAlt } from "./lessons/use-picture-alt"
 import { UseStorage } from "./lessons/use-storage"
+import { UsePictureWithMemo } from "./lessons/use-picure-with-use-memo"
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         {/* <UseEffect /> */}
         {/* <UsePicture /> */}
         {/* <UsePictureAlt /> */}
+        {/* <UsePictureWithMemo /> */}
         <UseStorage />
       </div>
     </ThemeProvider>
