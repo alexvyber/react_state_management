@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react"
 
+// --
+
 type Picture = {
   date: string
   explanation: string
