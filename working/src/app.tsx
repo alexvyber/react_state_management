@@ -11,6 +11,7 @@ import { UsePicture } from "./lessons/use-picture"
 import { UsePicture as UsePictureAlt } from "./lessons/use-picture-alt"
 import { UseStorage } from "./lessons/use-storage"
 import { UsePictureWithMemo } from "./lessons/use-picure-with-use-memo"
+import { UseComplete } from "./lessons/use-complete"
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         {/* <UsePictureAlt /> */}
         {/* <UsePictureWithMemo /> */}
         {/* <UseStorage /> */}
+        {/* <UseComplete /> */}
       </div>
     </ThemeProvider>
   )
